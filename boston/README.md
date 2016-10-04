@@ -7,12 +7,11 @@ UCI Machine Learning Repositoryにて公開されている [Housing Data Set](ht
 
 ## 使い方
 
-1. jubaregressionを起動
+- jubaregressionの起動
 ```
 jubaregression -f config/AROW.json &
 ```
-
-2. pythonスクリプトを実行
+- pythonスクリプトの実行
 ```
 python boston.py data/housing.data
 ```
@@ -20,6 +19,8 @@ python boston.py data/housing.data
 データを5分割した5-fold CVの結果が表示される
 
 ## ベンチマーク結果
+
+```
 perceptron(learning_rate:0.0000001)
 0, average_error: 7.818512663510765
 1, average_error: 9.061207033856078
@@ -89,3 +90,4 @@ euclidean(nearest_neighbor_num:5)
 2, average_error: 115.57568146356262
 3, average_error: 252.4407271432404
 4, average_error: 227.644220967812
+```
