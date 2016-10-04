@@ -1,0 +1,21 @@
+{
+  "method": "PA1",
+  "converter": {
+    "num_filter_types": {},
+    "num_filter_rules": [],
+    "string_filter_types": {},
+    "string_filter_rules": [],
+    "num_types": {},
+    "num_rules": [
+      { "key": "*", "type": "num" }
+    ],
+    "string_types": {},
+    "string_rules": [
+      { "key": "*", "type": "str", "sample_weight": "bin", "global_weight": "bin" }
+    ]
+  },
+  "parameter": {
+    "sensitivity": 1.0,
+    "regularization_weight": 0.1
+  }
+}
