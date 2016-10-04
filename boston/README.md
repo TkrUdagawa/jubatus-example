@@ -71,23 +71,24 @@ NHERD(sensitivity: 1.0, regularization_weight: 0.1)
 4, average_error: 8.492799272395594
 
 NN(method:lsh, nearest_neighbor_num:5, hash_num:256)
-0, average_error: 22.35023978958576
-1, average_error: 24.246441831673483
-2, average_error: 29.78657178218582
-3, average_error: 20.27616027229567
-4, average_error: 16.042581992308456
+0, average_error: 5.550693024739184
+1, average_error: 6.2956436194995815
+2, average_error: 7.222970275123523
+3, average_error: 7.100990289744765
+4, average_error: 6.679999942590695
 
 cosine(nearest_neighbor_num:5)
-0, average_error: 21.379422284234877
-1, average_error: 23.30949099807456
-2, average_error: 28.810803992559414
-3, average_error: 19.3372816723172
-4, average_error: 15.11391299030568
+0, average_error: 6.031485234628812
+1, average_error: 5.634455229504274
+2, average_error: 7.609504964091992
+3, average_error: 5.902178448969775
+4, average_error: 4.368515177056339
 
 euclidean(nearest_neighbor_num:5)
-0, average_error: 120.02288918825656
-1, average_error: 179.29228290520086
-2, average_error: 115.57568146356262
-3, average_error: 252.4407271432404
-4, average_error: 227.644220967812
+0, average_error: 6.513663433565955
+1, average_error: 5.43405941878215
+2, average_error: 7.5356436285642125
+3, average_error: 6.03366347775601
+4, average_error: 4.682574461002159
+
 ```
